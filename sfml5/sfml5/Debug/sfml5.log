@@ -1,0 +1,26 @@
+﻿Build started 13/07/2015 22:16:22.
+     1>Project "C:\Users\user\Documents\Visual Studio 2013\Projects\sfml5\sfml5\sfml5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HUD.cpp
+         HUD.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\bullet.h(6): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\monster.h(5): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\monsters.h(7): warning C4099: 'Monster' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\monster.h(8) : see declaration of 'Monster'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\player.h(10): warning C4099: 'Monsters' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\monsters.h(12) : see declaration of 'Monsters'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\player.h(15): warning C4099: 'Player' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\user\documents\visual studio 2013\projects\sfml5\sfml5\monster.h(6) : see declaration of 'Player'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2013\Projects\sfml5\Debug\sfml5.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2013\Projects\sfml5\Debug\sfml5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2013\Projects\sfml5\Debug\sfml5.lib" /MACHINE:X86 Debug\Bullet.obj
+         Debug\HUD.obj
+         Debug\main.obj
+         Debug\Monster.obj
+         Debug\Monsters.obj
+         Debug\Player.obj
+         sfml5.vcxproj -> C:\Users\user\Documents\Visual Studio 2013\Projects\sfml5\Debug\sfml5.exe
+     1>Done Building Project "C:\Users\user\Documents\Visual Studio 2013\Projects\sfml5\sfml5\sfml5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65
